@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>login_page</title>
+</head>
+<body id="body">
+<script>
+var b=document.getElementById('body');
+b.style.backgroundColor="#4d4dff";
+p1=document.createElement("p");
+p1.innerHTML="Landing";
+p1.style.fontFamily="sans-serif";
+p1.style.color="white";
+p1.style.fontWeight="bold";
+p1.style.fontSize="25px";
+p1.style.paddingTop="30px";
+p1.style.paddingLeft="100px";
+document.body.appendChild(p1);
+
+
+var navbar=document.createElement("nav");
+navbar.style.width="70%";
+navbar.style.height="80px";
+navbar.style.position="absolute";
+navbar.style.top="30px";
+navbar.style.marginLeft="300px";
+document.body.appendChild(navbar);
+
+var ul=document.createElement("ul");
+ul.style.position="relative";
+ul.style.left="55px";
+ul.style.color="white";
+ul.style.fontFamily="sans-serif";
+
+var li1=document.createElement("li");
+li1.innerHTML="Home";
+li1.style.display="inline-block";
+li1.style.margin="0 35px";
+var li2=document.createElement("li");
+li2.innerHTML="Features";
+li2.style.display="inline-block";
+li2.style.margin="0 35px";
+var li3=document.createElement("li");
+li3.innerHTML="Reviews";
+li3.style.display="inline-block";
+li3.style.margin="0 35px";
+var li4=document.createElement("li");
+li4.innerHTML="Pricing";
+li4.style.display="inline-block";
+li4.style.margin="0 35px";
+var li5=document.createElement("li");
+li5.innerHTML="FAQ";
+li5.style.display="inline-block";
+li5.style.margin="0 35px";
+var li6=document.createElement("li");
+li6.innerHTML="Get Started";
+li6.style.display="inline-block";
+li6.style.margin="0 35px";
+li6.style.padding="20px";
+li6.style.border="1px solid white";
+
+ul.appendChild(li1);
+ul.appendChild(li2);
+ul.appendChild(li3);
+ul.appendChild(li4);
+ul.appendChild(li5);
+ul.appendChild(li6);
+navbar.appendChild(ul);
+
+//left
+var div1=document.createElement("div");
+div1.style.lineHeight="0.8";
+div1.style.cssFloat="left";
+var p2=document.createElement("p");
+p2.innerHTML="Fly makes you";
+p2.style.color="white";
+p2.style.fontFamily="sans-serif";
+p2.style.fontSize="35px";
+p2.style.paddingLeft="100px";
+p2.style.paddingTop="60px";
+
+var p3=document.createElement("p");
+p3.innerHTML="faster";
+p3.style.color="white";
+p3.style.fontFamily="sans-serif";
+p3.style.fontSize="35px";
+p3.style.paddingLeft="100px";
+
+var p4=document.createElement("p");
+p4.innerHTML="New free template by uicookies.com.For more";
+p4.style.color="white";
+p4.style.fontFamily="sans-serif";
+p4.style.fontSize="20px";
+p4.style.paddingLeft="100px";
+
+var p5=document.createElement("p");
+p5.innerHTML="templates visit the site.Lorem ipsum dolor sit amet,";
+p5.style.color="white";
+p5.style.fontFamily="sans-serif";
+p5.style.fontSize="20px";
+p5.style.paddingLeft="100px";
+
+var p6=document.createElement("p");
+p6.innerHTML="consectetur adipisicing elit";
+p6.style.color="white";
+p6.style.fontFamily="sans-serif";
+p6.style.fontSize="20px";
+p6.style.paddingLeft="100px";
+
+var button=document.createElement("button");
+button.style.height="40px";
+button.style.width="170px";
+button.style.borderRadius="15px";
+button.style.color="white";
+button.style.backgroundColor="#00cc00";
+button.innerHTML="SEE PRICING";
+button.style.padding="20px";
+button.style.marginLeft="100px";		
+
+div1.appendChild(p2);
+div1.appendChild(p3);
+div1.appendChild(p4);
+div1.appendChild(p5);
+div1.appendChild(p6);
+div1.appendChild(button);
+document.body.appendChild(div1);
+
+//right
+var div2=document.createElement("div");
+div2.style.cssFloat="right";
+div2.style.height="450px";
+div2.style.width="500px";
+div2.style.backgroundColor="white";
+div2.style.margin="30px";
+var p7=document.createElement("p");
+p7.innerHTML="Sign Up for Free";
+p7.style.fontFamily="sans-serif";
+p7.style.textAlign="center";
+p7.style.paddingTop="20px";
+p7.style.fontSize="30px";
+
+var i1=document.createElement("input");
+i1.setAttribute("type","text");
+i1.placeholder="Full name";
+i1.style.fontFamily="sans-serif";
+i1.style.backgroundColor="#f2f2f2";
+i1.style.border="0";
+i1.style.margin="0 0 15px";
+i1.style.padding="15px";
+i1.style.fontSize="14px";
+i1.style.width="400px";
+i1.style.marginLeft="30px";
+
+var i2=document.createElement("input");
+i2.setAttribute("type","text");
+i2.placeholder="Email";
+i2.style.fontFamily="sans-serif";
+i2.style.backgroundColor="#f2f2f2";
+i2.style.border="0";
+i2.style.margin="0 0 15px";
+i2.style.padding="15px";
+i2.style.fontSize="14px";
+i2.style.width="400px";
+i2.style.marginLeft="30px";
+
+var i3=document.createElement("input");
+i3.setAttribute("type","text");
+i3.placeholder="Email";
+i3.style.fontFamily="sans-serif";
+i3.style.backgroundColor="#f2f2f2";
+i3.style.border="0";
+i3.style.margin="0 0 15px";
+i3.style.padding="15px";
+i3.style.fontSize="14px";
+i3.style.width="400px";
+i3.style.marginLeft="30px";
+
+var i4=document.createElement("input");
+i4.setAttribute("type","text");
+i4.placeholder="Type";
+i4.style.fontFamily="sans-serif";
+i4.style.backgroundColor="#f2f2f2";
+i4.style.border="0";
+i4.style.margin="0 0 15px";
+i4.style.padding="15px";
+i4.style.fontSize="14px";
+i4.style.width="400px";
+i4.style.marginLeft="30px";
+
+var but=document.createElement("button");
+but.style.height="40px";
+but.style.width="400px";
+but.style.borderRadius="15px";
+but.style.color="white";
+but.style.backgroundColor="blue";
+but.innerHTML="Register";
+but.style.padding="15px";
+but.style.marginLeft="40px";		
+
+
+div2.appendChild(p7);
+div2.appendChild(i1);
+div2.appendChild(i2);
+div2.appendChild(i3);
+div2.appendChild(i4);
+div2.appendChild(but);
+document.body.appendChild(div2);		
+</script>
+
+</body>
+</html>
